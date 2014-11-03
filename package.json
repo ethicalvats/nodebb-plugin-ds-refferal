@@ -1,0 +1,21 @@
+{
+  "name": "nodebb-plugin-ds-refferal",
+  "version": "0.0.1",
+  "description": "A refferal system plugin for dealstan",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "dealstan",
+    "refferal"
+  ],
+  "author": {
+    "name": "vatsal",
+    "email": ""
+  },
+  "license": "BSD-2-Clause"
+}

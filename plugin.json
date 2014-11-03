@@ -1,0 +1,27 @@
+{
+	"id": "nodebb-plugin-ds-refferal",
+	"name": "Refferal system Plugin for NodeBB",
+	"description": "A refferal system plugin for dealstan",
+	"url": "",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "action:user.create", "method": "addRefferalLink"
+		},
+		{
+			"hook": "filter:register.build", "method": "addRefferalBox"
+		},
+  	{
+  		"hook": "filter:register.check", "method": "checkRefferal"
+  	}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	]
+}
